@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: #FF1744;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+.active{
+  background-color: blueviolet;
+}
+
+h1{
+  background-color: #FF1744;
+  text-align: center;
+
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+.inicio{
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  margin: auto;
+  padding: 15px;
+}
+.inicio footer{
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  margin: 15px;
+  padding: 15px;
+  border: solid;
+  border-color: black;
+}
+.inicio div{
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  margin: 15px;
+  padding: 15px;
+  border: solid;
+  border-color: black;
+}
+.inicio div footer{
+  width: 310px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  vertical-align: top;
+}
+.inicio aside{
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  margin: 15px;
+  padding: 15px;
+  border: solid;
+  border-color: black;
+}
+.inicio aside footer{
+  width: 310px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  vertical-align: top;
+}
+.inicio footer footer{
+  width: 310px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  vertical-align: top;
+}
+.inicio footer footer footer{
+  width: 275px;
+  height: 164px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border-color: black;
+  vertical-align: top;
+}
+.inicio footer footer footer section{
+  width: 52px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+  margin: auto;
+}
+.inicio footer footer footer nav{
+  width: 162px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: auto;
+}
+.inicio footer footer footer section{
+  width: 70px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+  margin: auto;
+}
+.inicio footer footer azul{
+  width: 310px;
+  height: 32px;
+  background-color: rgb(0, 4, 255);
+  display: inline-block;
+  margin: auto;
+}
+.inicio footer footer blanco{
+  width: 310px;
+  height: 32px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: auto;
+}
+.inicio footer footer rojo{
+  width: 310px;
+  height: 50px;
+  background-color: red;
+  display: inline-block;
+  margin: auto;
+}
+.inicio div footer meta{
+  width: 310px;
+  height: 50px;
+  background-color: red;
+  display: inline-block;
+  margin: auto;
+}
