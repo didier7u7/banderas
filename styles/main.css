@@ -92,30 +92,30 @@ h1{
   border: solid;
   border-color: black;
   vertical-align: top;
+
 }
-.inicio footer footer footer{
-  width: 275px;
-  height: 164px;
-  background-color: rgb(255, 255, 255);
-  margin: auto;
-  border-color: black;
-  vertical-align: top;
-}
-.inicio footer footer footer section{
+.inicio footer footer section{
   width: 52px;
   height: 200px;
   background-color: red;
   display: inline-block;
   margin: auto;
 }
-.inicio footer footer footer nav{
+.inicio footer footer nav{
   width: 162px;
   height: 200px;
   background-color: rgb(255, 255, 255);
   display: inline-block;
   margin: auto;
 }
-.inicio footer footer footer section{
+.inicio footer footer nav img{
+  width: 100px;
+  height: 100px;
+  margin: 43px 10px;
+  padding: 0px;
+}
+
+.inicio footer footer section{
   width: 70px;
   height: 200px;
   background-color: red;
@@ -139,14 +139,29 @@ h1{
 .inicio footer footer rojo{
   width: 310px;
   height: 50px;
-  background-color: red;
+  background-color: rgb(212, 0, 0);
   display: inline-block;
   margin: auto;
 }
-.inicio div footer meta{
-  width: 310px;
-  height: 50px;
-  background-color: red;
-  display: inline-block;
-  margin: auto;
+.inicio footer footer rojo nav{
+  width: 48px;
+  height: 48px;
+  margin: 2px 51px;
+  padding-right: 0px;
+  background-color: white;
+  border-radius: 50%;
+}
+.inicio footer footer rojo nav img{
+  width: 40px;
+  height: 40px;
+  padding-left: 0px;
+  margin: 2px;
+}
+.inicio div footer cuadro{
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  margin: 15px;
+  padding: 15px;
+  border: solid;
+  border-color: black;
 }
