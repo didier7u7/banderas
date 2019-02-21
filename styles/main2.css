@@ -33,14 +33,22 @@ h1{
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
 }
+h2{
+  display: inline-block;
+  margin: 5px auto 0px 90px;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
 .inicio{
-  background-color: rgb(255, 255, 255);
+  background-color:white;
   width: fit-content;
   margin: auto;
   padding: 15px;
 }
 .inicio footer{
-  background-color: rgb(255, 255, 255);
+  background-color:white;
   width: fit-content;
   margin: 15px;
   padding: 15px;
@@ -50,72 +58,171 @@ h1{
 .inicio footer footer{
   width: 310px;
   height: 200px;
-  background-color: rgb(255, 255, 255);
+  background-color:white;
   margin: 10px;
   display: inline-block;
   border: solid;
   border-color: black;
   vertical-align: top;
 }
-.inicio footer section{
-  width: 321px;
-  height: 60px;
-  background-color: yellow;
-  margin: auto;
-}
-.inicio footer div{
-  width: 321px;
-  height: 60px;
-  background-color: blue;
-  margin:auto;
-}
-.inicio footer aside{
-  width: 321px;
-  height: 60px;
-  background-color: red;
-  margin: auto;
-}
-.inicio footer article{
-  width: 321px;
-  height: 60px;
-  background-color:rgb(0, 225, 255);
-  margin: auto;
-}
-.inicio footer main{
-  width: 321px;
-  height: 60px;
-  background-color: blanchedalmond;
-  margin:auto;
-}
-.inicio footer nav{
-  width: 321px;
-  height: 60px;
-  background-color:rgb(0, 225, 255);
-  margin: auto;
-}
-.inicio div main {
-  background-color: rgb(255, 255, 255);
-  width: fit-content;
-  margin: 15px;
-  padding: 15px;
-  border: solid;
-  border-color: black;
-}
-.inicio div footer {
-  width: 310px;
-  height: 200px;
-  background-color: rgb(255, 255, 255);
-  margin: 10px;
+.inicio footer footer article{
+  width: 250px;
+  height: 150px;
+  background-color:white;
+  margin:22px 0px 0px 25px;
   display: inline-block;
   border: solid;
   border-color: black;
-  vertical-align: top;
-  }
+}
 
-.inicio footer body{
-  width: 321px;
-  height: 60px;
-  background-color: blanchedalmond;
-  margin:auto;
+/*Bandera de Colombia*/
+.inicio footer footer article amarillo{
+  display: inline-block;
+  width:250px;
+  height:50px;
+  background-color: yellow;
 }
-  
+.inicio footer footer article azul{
+  display: inline-block;
+  width:250px;
+  height:50px;
+  margin:-4px auto auto auto;
+  background-color: blue;
+}
+.inicio footer footer article rojo{
+  display: inline-block;
+  width:250px;
+  height:50px;
+  margin:-4px auto auto auto;
+  background-color: red;
+}
+
+/*Bandera de Argentina*/
+.inicio footer footer article azula{
+  display: inline-block;
+  vertical-align: top;
+  width:250px;
+  height:50px;
+  background-color: rgb(0, 183, 255);
+}
+.inicio footer footer article blanco{
+  display: inline-block;
+  vertical-align: top;
+  width:250px;
+  height:50px;
+  background-color:white;
+}
+.inicio footer footer article blanco img{
+  width:50px;
+  height:50px;
+  margin: auto 0px auto 100px;
+}
+
+/*Bandera de japon*/
+.inicio footer footer article blanco1{
+  display: inline-block;
+  width:250px;
+  height:150px;
+  background-color:white;
+}
+.inicio footer footer article blanco1 rojo1{
+  display: inline-block;
+  width:85px;
+  height:85px;
+  margin: 35px 0px 0px 80px;
+  background-color:red;
+  border-radius: 50%;
+}
+
+/*Bandera de mexico*/
+.inicio footer footer article verde {
+  display: inline-block;
+  width:90px;
+  height:150px;
+  background-color:green;
+}
+.inicio footer footer article blanco2 {
+  display: inline-block;
+  width:67px;
+  height:150px;
+  background-color:white;
+}
+.inicio footer footer article rojo2 {
+  display: inline-block;
+  width:85px;
+  height:150px;
+  background-color:red;
+}
+.inicio footer footer article blanco2 img{
+  width: 59px;
+  height: 59px;
+  margin: 48px auto 43px 5px;
+}  
+
+/*Bandera de finlandia*/
+.inicio footer footer article azul1 {
+  display: inline-block;
+  width:34px;
+  height:153px;
+  background-color:blue;
+  margin: 0px 0px 0px 56px ;
+}
+.inicio footer footer article azul4 {
+  display: inline-block;
+  width:252px;
+  height:33px;
+  background-color: blue;
+  margin:-124px 2px 77px -1px;
+
+}
+
+/*Bandera de corea del norte*/
+.inicio footer footer article azul9{
+  display: inline-block;
+  width:250px;
+  height:50px;
+  margin:-4px auto auto auto;
+  background-color: blue;
+}
+.inicio footer footer article blanco5{
+  display: inline-block;
+  width:251px;
+  height:8px;
+  margin:-9px 10px 10px  -1px;
+  background-color:white;
+}
+.inicio footer footer article rojo7{
+  display: inline-block;
+  width:250px;
+  height:50px;
+  margin:-11px 0px 0px  0px;
+  background-color: red;
+}
+.inicio footer footer article blanco6{
+  display: inline-block;
+  width:251px;
+  height:8px;
+  margin:-9px 10px 10px  -1px;
+  background-color:white;
+}
+.inicio footer footer article azul8{
+  display: inline-block;
+  width:250px;
+  height:32px;
+  margin:-10px 0px  -3px 0px;
+  background-color: blue;
+}
+.inicio footer footer article circulo{
+  display: inline-block;
+  width:56px;
+  height:35px;
+  margin: 9px 0px 5px 16px;
+  background-color:white;
+  border-radius: 50%;
+}
+.inicio footer footer article circulo  img{
+  width: 47px;
+  height: 35px;
+  margin: -2px auto 7px 5px;
+}  
+
