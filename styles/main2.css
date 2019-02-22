@@ -41,6 +41,48 @@ h2{
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
 }
+h3{
+
+  display: inline-block;
+  margin: 5px auto 0px 110px;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+h4{
+  display: inline-block;
+  margin: 5px auto 0px 110px;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+h5{
+  display: inline-block;
+  margin: 5px auto 0px 118px;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+h6{
+  display: inline-block;
+  margin: -24px auto 0px 106px;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+h7{
+  display: inline-block;
+  margin: 4px auto -18px 56px;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
 .inicio{
   background-color:white;
   width: fit-content;
@@ -180,15 +222,15 @@ h2{
 .inicio footer footer article azul9{
   display: inline-block;
   width:250px;
-  height:50px;
-  margin:-4px auto auto auto;
+  height:40px;
+  margin:0px auto auto auto;
   background-color: blue;
 }
 .inicio footer footer article blanco5{
   display: inline-block;
   width:251px;
-  height:8px;
-  margin:-9px 10px 10px  -1px;
+  height:12px;
+  margin:-43px 2px 7px  -1px;
   background-color:white;
 }
 .inicio footer footer article rojo7{
@@ -208,21 +250,21 @@ h2{
 .inicio footer footer article azul8{
   display: inline-block;
   width:250px;
-  height:32px;
-  margin:-10px 0px  -3px 0px;
+  height:41px;
+  margin:-13px 0px  -3px 0px;
   background-color: blue;
 }
 .inicio footer footer article circulo{
   display: inline-block;
-  width:56px;
+  width:35px;
   height:35px;
   margin: 9px 0px 5px 16px;
   background-color:white;
   border-radius: 50%;
 }
 .inicio footer footer article circulo  img{
-  width: 47px;
+  width: 35px;
   height: 35px;
-  margin: -2px auto 7px 5px;
+  margin: -2px auto 7px 0px;
 }  
 
